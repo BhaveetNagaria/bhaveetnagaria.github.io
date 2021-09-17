@@ -255,9 +255,9 @@ h4 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-    .card-header:first-child {
-        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-    }
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
 
 .card-footer {
     padding: 0.75rem 1.25rem;
@@ -265,9 +265,9 @@ h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-    .card-footer:last-child {
-        border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
-    }
+.card-footer:last-child {
+   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
 
 .card-header-tabs {
     margin-right: -0.625rem;
@@ -286,50 +286,50 @@ h4 {
     border-color: #1E7BB4;
 }
 
-    .card-primary .card-header,
-    .card-primary .card-footer {
-        background-color: transparent;
-    }
+.card-primary .card-header,
+.card-primary .card-footer {
+    background-color: transparent;
+}
 
 .card-success {
     background-color: #40bb6a;
     border-color: #40bb6a;
 }
 
-    .card-success .card-header,
-    .card-success .card-footer {
-        background-color: transparent;
-    }
+.card-success .card-header,
+.card-success .card-footer {
+    background-color: transparent;
+}
 
 .card-info {
     background-color: #4bacda;
     border-color: #4bacda;
 }
 
-    .card-info .card-header,
-    .card-info .card-footer {
-        background-color: transparent;
-    }
+.card-info .card-header,
+.card-info .card-footer {
+    background-color: transparent;
+}
 
 .card-warning {
     background-color: #f0ad4e;
     border-color: #f0ad4e;
 }
 
-    .card-warning .card-header,
-    .card-warning .card-footer {
-        background-color: transparent;
-    }
+.card-warning .card-header,
+.card-warning .card-footer {
+    background-color: transparent;
+}
 
 .card-danger {
     background-color: #e02130;
     border-color: #e02130;
 }
 
-    .card-danger .card-header,
-    .card-danger .card-footer {
-        background-color: transparent;
-    }
+.card-danger .card-header,
+.card-danger .card-footer {
+    background-color: transparent;
+}
 
 .card-outline-primary {
     background-color: transparent;
@@ -365,29 +365,29 @@ h4 {
     color: rgba(255, 255, 255, 0.65);
 }
 
-    .card-inverse .card-header,
-    .card-inverse .card-footer {
-        background-color: transparent;
-        border-color: rgba(255, 255, 255, 0.2);
-    }
+.card-inverse .card-header,
+.card-inverse .card-footer {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+}
 
-    .card-inverse .card-header,
-    .card-inverse .card-footer,
-    .card-inverse .card-title,
-    .card-inverse .card-blockquote {
-        color: #fff;
-    }
+.card-inverse .card-header,
+.card-inverse .card-footer,
+.card-inverse .card-title,
+.card-inverse .card-blockquote {
+    color: #fff;
+}
 
-        .card-inverse .card-link,
-        .card-inverse .card-text,
-        .card-inverse .card-subtitle,
-        .card-inverse .card-blockquote .blockquote-footer {
-            color: rgba(255, 255, 255, 0.65);
-        }
+.card-inverse .card-link,
+.card-inverse .card-text,
+.card-inverse .card-subtitle,
+.card-inverse .card-blockquote .blockquote-footer {
+    color: rgba(255, 255, 255, 0.65);
+}
 
-            .card-inverse .card-link:focus, .card-inverse .card-link:hover {
-                color: #fff;
-            }
+.card-inverse .card-link:focus, .card-inverse .card-link:hover {
+    color: #fff;
+}
 
 .card-blockquote {
     padding: 0;
@@ -419,115 +419,115 @@ h4 {
 }
 
 @media (min-width: 576px) {
-    .card-deck {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    }
+.card-deck {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
 
-        .card-deck .card {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-flex: 1;
-            -webkit-flex: 1 0 0%;
-            -ms-flex: 1 0 0%;
-            flex: 1 0 0%;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-        }
+.card-deck .card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 
-            .card-deck .card:not(:first-child) {
-                margin-left: 15px;
-            }
+.card-deck .card:not(:first-child) {
+    margin-left: 15px;
+}
 
-            .card-deck .card:not(:last-child) {
-                margin-right: 15px;
-            }
+.card-deck .card:not(:last-child) {
+    margin-right: 15px;
+}
 }
 
 @media (min-width: 576px) {
-    .card-group {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    }
+.card-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
 
-        .card-group .card {
-            -webkit-box-flex: 1;
-            -webkit-flex: 1 0 0%;
-            -ms-flex: 1 0 0%;
-            flex: 1 0 0%;
-        }
+.card-group .card {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+}
 
-            .card-group .card + .card {
-                margin-left: 0;
-                border-left: 0;
-            }
+.card-group .card + .card {
+    margin-left: 0;
+    border-left: 0;
+}
 
-            .card-group .card:first-child {
-                border-bottom-right-radius: 0;
-                border-top-right-radius: 0;
-            }
+.card-group .card:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
 
-                .card-group .card:first-child .card-img-top {
-                    border-top-right-radius: 0;
-                }
+.card-group .card:first-child .card-img-top {
+    border-top-right-radius: 0;
+}
 
-                .card-group .card:first-child .card-img-bottom {
-                    border-bottom-right-radius: 0;
-                }
+.card-group .card:first-child .card-img-bottom {
+      border-bottom-right-radius: 0;
+}
 
-            .card-group .card:last-child {
-                border-bottom-left-radius: 0;
-                border-top-left-radius: 0;
-            }
+.card-group .card:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+}
 
-                .card-group .card:last-child .card-img-top {
-                    border-top-left-radius: 0;
-                }
+.card-group .card:last-child .card-img-top {
+      border-top-left-radius: 0;
+}
 
-                .card-group .card:last-child .card-img-bottom {
-                    border-bottom-left-radius: 0;
-                }
+.card-group .card:last-child .card-img-bottom {
+      border-bottom-left-radius: 0;
+}
 
-            .card-group .card:not(:first-child):not(:last-child) {
-                border-radius: 0;
-            }
+.card-group .card:not(:first-child):not(:last-child) {
+      border-radius: 0;
+}
 
-                .card-group .card:not(:first-child):not(:last-child) .card-img-top,
-                .card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
-                    border-radius: 0;
-                }
+.card-group .card:not(:first-child):not(:last-child) .card-img-top,
+.card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
+      border-radius: 0;
+}
 }
 
 @media (min-width: 576px) {
-    .card-columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        -webkit-column-gap: 1.25rem;
-        -moz-column-gap: 1.25rem;
-        column-gap: 1.25rem;
-    }
+.card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+}
 
-        .card-columns .card {
-            display: inline-block;
-            width: 100%;
-            margin-bottom: 0.75rem;
-        }
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
 }
 
 .pb-2 {
@@ -620,14 +620,17 @@ a.text:active {color:white;}
   border-radius: 4px;
   margin-bottom: 10px;
 }
+
 .profile-img {
   height: 120px;
   background: white;
 }
+
 .job {
   color: #666666;
   font-size: 17px;
 }
+
 .mail {
   font-size: 16px;
  }

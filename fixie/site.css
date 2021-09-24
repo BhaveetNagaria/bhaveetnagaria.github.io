@@ -124,6 +124,10 @@ pwhite {
     color: white !important;
 }
 
+pBlue {
+    color: rgb(4,44,80) !important;
+}
+
 ul {
     color: rgb(4,44,80) !important;
 }
@@ -595,6 +599,11 @@ a.text:visited {color:white;}
 a.text:hover {color:white;}
 a.text:active {color:white;}
 
+a.textFooter:link {color:rgb(4,4,80);}
+a.textFooter:visited {color:rgb(4,4,80);}
+a.textFooter:hover {color:rgb(4,4,80);}
+a.textFooter:active {color:rgb(4,4,80);}
+
 .footerlogo {
   padding-top: 5px;
   padding-right: 5px;
@@ -633,4 +642,9 @@ a.text:active {color:white;}
 
 .mail {
   font-size: 16px;
+ }
+
+ hr{
+   height: 2px !important;
+   background-color: rgb(4,4,80) !important;
  }
